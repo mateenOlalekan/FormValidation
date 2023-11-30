@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  background-image: url(./rust.jpeg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.App-header {
+  background-image: url(./rust.jpeg);
+  background-position: center;
+  background-size: cover;
+  width: 35%;
+  height:85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 1px 1px 50px #171717;
+  border-bottom: 5px solid cornflowerblue;
+  border-top: 5px solid white;
+  border-radius: 10px;
+  justify-content: space-evenly;
+}
+@media screen and (max-width:882px){
+  .App-header {
+    background-image: url(./rust.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 55%;
+    height:85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 1px 1px 50px #171717;
+    border-bottom: 5px solid cornflowerblue;
+    border-top: 5px solid white;
+    border-radius: 10px;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (max-width:682px){
+  .App-header {
+    background-image: url(./rust.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 70%;
+    height:65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 1px 1px 50px #171717;
+    border-bottom: 5px solid cornflowerblue;
+    border-top: 5px solid white;
+    border-radius: 10px;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (min-width:1280px){
+  .app-header{
+    width: 80%;
+  height:65vh;
+}
+}
+input{
+  width: 250px;
+  height:8%;
+  text-indent: 15px;
+  border-radius: 5px;
+  list-style:none;
+  border:none;
+  display: block;
+  outline: none;
+  
+}
+input:hover {
+  color:red;
+  border: none;
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+  height: 3px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+hr{
+  width: 60px;
+}
+hr , p {
+  margin: 5px;
+}
+.main{
+  padding: 10px;
+  width:250px;
+  height:8%;
+  border:none;
+  border-radius: 10px;
+  background-image: url(./rust.jpeg);
+}
+.main:hover{
+  cursor:pointer;
+}
+.mainone{
+  width:84px;
+  padding: 8px;;
+}
+span{
+  font-size: smaller;
+  color:red;
+}
+h5 {
+  padding: 5px;
+  text-align: center;
+  color:white;
+  background-color: cornflowerblue;
+  border-radius: 5px;
+}
+p{
+  text-align:right;
+  font-size:20px;
+  color: white;
+}
